@@ -2,7 +2,10 @@ import React from 'react'
 import { GoogleMap, LoadScript } from '@react-google-maps/api';
 
 const containerStyle = {
-  width: '400px',
+    bottom:"10px",
+    position:"absolute",
+    flex: "justify-content-center",
+  width: '700px',
   height: '400px'
 };
 
